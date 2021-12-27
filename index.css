@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+}
+
+#main{
+    
+    width: 100%;
+    height: 120vh;
+    background-image: url(1.png);
+    background-size: cover;
+  
+
+}
+nav{
+   
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    line-height: 80px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 2rem;
+}
+nav ul li{
+    
+    list-style-type: none;
+    display: inline-block;
+}
+ nav ul li a{
+    font-size: 25px;
+    font-weight: 100;
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+    
+ } 
+ nav ul li a:hover{
+     color: rgb(189, 22, 22);
+ }  
+ .row{
+    background-color: #DED9DE;
+    padding: 50px;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.row .col50{
+    
+    padding: 50px;
+    position: relative;
+    width: 48%;
+    
+}
+.titleText{
+    
+    margin-top: 20%;
+    color: #9A8CBC;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.row .col50 .imgbx{
+    
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    height: 100%;
+    
+}
+.row .col50 .imgbx img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.menu{
+    background-color: #927A7C;
+    
+}
+.title{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titleTexts{
+    
+    margin-top: 5%;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.menu .content{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-top:40px;
+   
+}
+.menu .content .box{
+    width: 300px;
+    margin: 10px;
+    border: 20px solid whitesmoke;
+    background-color:whitesmoke ;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.219);
+
+}
+.menu .content .box .imgBx{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.menu .content .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.menu .content .box .text{
+    background-color: black;
+    margin-top: 10px;
+    padding: 15px 0 5px;
+    color: #fff;
+    text-align: center;
+
+}
+.menu .content .box .text p{
+    
+    font-weight: 200;
+    color: #fff;
+    text-align: center;
+
+} 
+.row{
+    background-color: #DED9DE;
+    /* padding: 50px; */
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+.row .col50{
+    
+    /* padding: 50px; */
+    position: relative;
+    width: 48%;
+    
+}
+.titleText{
+    
+    /* margin-top: 20%; */
+    color: #9A8CBC;
+    font-size: 3rem;
+    font-weight: 300;
+}
+.row .col50 .imgBx_1{
+    
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    height: 70%;
+    
+}
+.row .col50 .imgBx_1 img{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+  
+}
